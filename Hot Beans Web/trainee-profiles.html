@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hot Beans Web: Trainees</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+	<header>
+	  <div class="logo-title">
+		<img src="images/logo.png" height="70px" width="auto">
+		<h1>Hot Beans Web</h1>
+	  </div>
+      <div class="controls">
+        <button onclick="changeFontSize(2)">A+</button>
+        <button onclick="changeFontSize(-2)">A-</button>
+        <button onclick="resetFontSize()">Reset</button>
+      </div>	  
+	</header>
+	
+	<!-- Nav bar -->
+	<div class="navbar">
+	  <a href="company-profile.html">Home</a>
+          <a href="trainee-profiles.html">Trainees</a>
+          <a href="job-specs.html">Job Specifications</a>
+	  <a href="online-application.html">Online Application</a>
+	  <a href="course-links.html">Courses</a>
+	</div>
+	
+	<!-- Main content -->
+	<main class="content" id="textContent">
+	<div class="grid-container">
+	  <h1 class="container-centered">Meet the team</h1>
+	</div>
+	
+	<div class="grid-container-halves">
+	  <div class="item">
+        <div class="title">Arjun Patel</div>
+        <div class="description"><p><b>Skills</b><br>-Python and Node.js<br>-SQL and NoSQL databases<br>-Web security fundamentals</p></div>
+        <img src="images/trainee1.jpg" alt="">
+      </div>
+	  <div class="item">
+	    <div class="title">Ravi Desai</div>
+        <div class="description"><p><b>Skills</b><br>-HTML, CSS, JavaScript<br>-React.js and Vue.js<br>-Basic knowledge of web accessibility standards</p></div>
+        <img src="images/trainee2.jpg" alt="">
+      </div>
+	  <div class="item">
+	    <div class="title">Omar Al-Farsi</div>
+        <div class="description"><p><b>Skills</b><br>-HTML, CSS, JavaScript, and React<br>-Node.js and Express<br>-MongoDB and Firebase</p></div>
+        <img src="images/trainee3.jpg" alt="">
+      </div>
+	  <div class="item">
+	    <div class="title">Ethan Miller</div>
+        <div class="description"><p><b>Skills</b><br>-SEO best practices and tools<br>-Content strategy & copywriting<br>-Social media marketing</p></div>
+        <img src="images/trainee4.jpg" alt="">
+      </div>
+	</div>
+    </main>
+	
+	<!-- Footer -->
+    <footer>
+      <p>@2025 Hot Beans Web. All rights reserved.</p>
+    </footer>
+	
+	<script src="scripts/adjustFontSize.js"></script>
+  </body>
+</html>

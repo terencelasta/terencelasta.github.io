@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hot Beans Web: Courses</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+	<header>
+	  <div class="logo-title">
+		<img src="images/logo.png" height="70px" width="auto">
+		<h1>Hot Beans Web</h1>
+	  </div>
+      <div class="controls">
+        <button onclick="changeFontSize(2)">A+</button>
+        <button onclick="changeFontSize(-2)">A-</button>
+        <button onclick="resetFontSize()">Reset</button>
+      </div>	  
+	</header>
+	
+	<!-- Nav bar -->
+	<div class="navbar">
+	  <a href="company-profile.html">Home</a>
+      <a href="trainee-profiles.html">Trainees</a>
+      <a href="job-specs.html">Job Specifications</a>
+	  <a href="online-application.html">Online Application</a>
+	  <a href="course-links.html">Courses</a>
+	</div>
+	
+	<!-- Main content -->
+	<main class="content" id="textContent">
+	<div class="grid-container">
+	  <h1 class="container-centered">Links to Courses</h1>
+	</div>
+	
+	<div class="grid-container-halves">
+	  <div class="item">
+        <div class="title"><b>W3Schools HTML</b></div>
+        <div class="description">Learn the basics of HTML, the standard markup language for creating web pages. 
+		This course covers everything from basic tags to building forms and structuring web content. 
+		Perfect for beginners starting their web development journey.<br><br>
+		<b>Covers:</b> Elements, attributes, headings, links, images, tables, and forms.</p></div>
+        <a href="https://www.w3schools.com/html/default.asp"><img src="images/html.jpg" alt="Link to W3School's HTML course"></a>
+      </div>
+	  <div class="item">
+	    <div class="title"><b>W3Schools CSS</b></div>
+        <div class="description">Understand how to style HTML documents using CSS. 
+		This course introduces you to styling elements, layout techniques, and design principles for responsive and visually appealing web pages.<br><br>
+		<b>Covers:</b> Selectors, colors, backgrounds, box model, flexbox, grid, and media queries.</p></div>
+        <a href="https://www.w3schools.com/css/default.asp"><img src="images/css.jpg" alt="Link to W3School's CSS course"></a>
+      </div>
+	  <div class="item">
+	    <div class="title"><b>W3Schools JavaScript</b></div>
+        <div class="description">Dive into JavaScript to bring interactivity to your web pages. 
+		This beginner-friendly course walks you through scripting basics, manipulating the DOM, and creating dynamic web applications.<br><br>
+		<b>Covers:</b> Variables, functions, events, loops, arrays, and basic DOM manipulation.</p></div>
+        <a href="https://www.w3schools.com/js/default.asp"><img src="images/javascript.jpg" alt="Link to W3School's JavaScript course"></a>
+      </div>
+	</div>
+	</main>
+	
+	<!-- Footer -->
+    <footer>
+      <p>@2025 Hot Beans Web. All rights reserved.</p>
+    </footer>
+	
+	<script src="scripts/adjustFontSize.js"></script>
+  </body>
+</html>
+

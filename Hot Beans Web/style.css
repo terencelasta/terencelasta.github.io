@@ -1,0 +1,237 @@
+body {
+  font-family:'Century Gothic',sans-serif;
+  background-color: #f4f4f4;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  background-color: black;
+  color: white;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header img {
+  margin-right: 0px;
+}
+
+.controls button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #292929;
+  color: #f2f2f2;
+}
+
+.controls button:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.content {
+  padding: 30px 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #292929;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  width: 95%;
+}
+
+.container-centered {
+  grid-row: 1;
+  grid-column: span 5;
+  text-align: center;
+}
+
+.container-centered-image {
+  grid-row: 1;
+  grid-column: span 5;
+  margin: auto
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+/* 2:1 text to image ratio */
+.paragraph-left {
+  grid-row: 2;
+  grid-column: span 3;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.imageright {
+  grid-row: 2;
+  grid-column: 4/span 2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+/* 1:2 text to image ratio */
+.imageleft {
+  grid-row: 2;
+  grid-column: 1;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.paragraph-right {
+  grid-row: 2;
+  grid-column: 2/span 4;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Row with 2 paragraphs only */
+.row-paragraph-only1 {
+  grid-row: 2;
+  grid-column: span 2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.row-paragraph-only2 {
+  grid-row: 2;
+  grid-column: 4/span 2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Row with 2 paragraphs and images */
+.row-paragraph1 {
+  grid-row: 2;
+  grid-column: 1;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.row-image1 {
+  grid-row: 2;
+  grid-column: 2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.row-paragraph2 {
+  grid-row: 2;
+  grid-column: 4;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.row-image2 {
+  grid-row: 2;
+  grid-column: 5;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.grid-container-halves {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 4px;
+  background-color: black;
+  color: white;
+}
