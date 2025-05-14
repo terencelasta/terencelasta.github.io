@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hot Beans Web: Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+	<header>
+	  <div class="logo-title">
+		<img src="images/logo.png" height="70px" width="auto">
+		<h1>Hot Beans Web</h1>
+	  </div>
+      <div class="controls">
+        <button onclick="changeFontSize(1)">A+</button>
+        <button onclick="changeFontSize(-1)">A-</button>
+        <button onclick="resetFontSize()">Reset</button>
+      </div>	  
+	</header>
+	
+	<!-- Nav bar -->
+	<div class="navbar">
+	  <a href="company-profile.html">Home</a>
+      <a href="trainee-profiles.html">Trainees</a>
+      <a href="job-specs.html">Job Specifications</a>
+	  <a href="online-application.html">Online Application</a>
+	  <a href="course-links.html">Courses</a>
+	</div>
+	
+	<!-- Main content -->
+	<main class="content" id="textContent">
+	<div class="grid-container">
+	  <h1 class="container-centered">Welcome to Hot Beans Web</h1>
+	  <p class="paragraph-left"><span style="font-size: 22px;"><b>About Us</b></span><br>
+          <span>Hot Beans Web is a dynamic and creative web development company dedicated to delivering cutting-edge digital experiences. 
+		  With a focus on quality, performance, and user-centric design, we specialize in creating custom websites and web applications that help businesses thrive in the digital landscape. 
+		  Our team is passionate about staying at the forefront of technology trends, ensuring that each project we take on is powered by the latest tools and industry best practices.</span><br><br>
+		  <span>We understand that in today’s competitive market, a website is more than just an online presence—it's a powerful tool for growth, engagement, and brand differentiation. 
+		  That’s why we approach every project with a strategic mindset, offering personalized solutions that align with your specific goals. 
+		  Whether you’re a startup looking to establish your brand or an established business aiming to enhance your digital footprint, we partner with you to create lasting, impactful solutions.</span></p>
+	  <img src="images/companyprofile.jpg" alt="" class="imageright">
+	</div>
+	
+	<div class="grid-container">
+	  <h1 class="container-centered">Our Services</h1>
+	  <img src="images/image1.jpg" class="imageleft">	  
+	  <p class="paragraph-right"><b>Web Applications</b><br>
+	  Robust and scalable web apps that streamline operations and increase efficiency.</p>
+	</div>
+
+	<div class="grid-container">
+	  <img src="images/image2.jpg" class="imageleft">	  
+	  <p class="paragraph-right"><b>E-Commerce Solutions</b><br>
+	  Scalable and secure online stores to drive sales and enhance customer experiences.</p>
+	</div>
+
+	<div class="grid-container">
+	  <img src="images/image3.jpg" class="imageleft">	  
+	  <p class="paragraph-right"><b>Custom Web Development</b><br>
+	  Tailored websites that reflect your brand identity and meet your unique business needs.</p>
+	</div>
+	</main>
+	
+	<!-- Footer -->
+    <footer>
+      <p>@2025 Hot Beans Web. All rights reserved.</p>
+    </footer>
+	
+	<script src="scripts/adjustFontSize.js"></script>
+  </body>
+</html>
